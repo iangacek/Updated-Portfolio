@@ -201,13 +201,14 @@ h2 {
     /* float: left; */
     width: 200px;
     height: auto;
-    margin-top: 10px;
+    margin: auto;    
+    display: block;
     /* margin-right: 25px; */
 }
 
 .caption-text {
     text-align: center;
-    margin-right: 25px;
+    /* margin-right: 25px; */
 }
 
 /* contact page */
