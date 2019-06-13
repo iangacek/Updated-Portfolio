@@ -79,6 +79,10 @@ footer {
     margin-right: 25px;
 }
 
+#bold-text {
+    font-weight: 300;
+}
+
 /* portfolio page */
 
 .int-image {
@@ -90,6 +94,11 @@ footer {
 
 .caption-text {
     text-align: center;
+}
+
+.sub-caption-text {
+    text-align: center;
+    font-size: 12px;
 }
 
 /* contact page */
