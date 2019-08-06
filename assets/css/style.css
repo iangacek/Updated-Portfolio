@@ -61,7 +61,7 @@ footer {
 #main-container {
     padding-top: 25px;
     min-height: calc(100vh - 70px);
-    background-color: #C5C3C6;
+    background-color: rgb(23,38,41);
 }
 
 #body-text {
