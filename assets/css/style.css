@@ -85,7 +85,7 @@ p {
 
 .int-image {
     width: 200px;
-    height: auto;
+    height: 200px;
     margin: auto;    
     display: block;
 }
