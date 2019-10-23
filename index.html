@@ -1,20 +1,28 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <title>About | Ian Gacek</title>
+    <!-- Viewport CSS -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <!-- Other CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Asap+Condensed|Open+Sans|Open+Sans+Condensed:300&display=swap"
+      rel="stylesheet"
+    />
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <title>About | Ian Gacek</title>
-  <!-- Viewport CSS -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <!-- Other CSS -->
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-</head>
-
-<!-- Navbar code in it's absolute worst form -->
-<div class="container">
+  <!-- Navbar code in it's absolute worst form -->
+  <!-- <div class="container">
   <div class="row">
     <div class="col-md" style="padding-left: 0px; padding-right: 0px;">
       <nav class="navbar navbar-expand-lg">
@@ -35,44 +43,58 @@
       </nav>
     </div>
   </div>
-</div>
+</div> -->
 
-<body>
-  <!-- Body Content -->
-  <div class="container" id="main-container">
-    <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-10">
-        <div class="row">
-          <div class="col-md-12">
-            <h1>About Me</h1>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Ian's Portfolio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+        <a class="nav-item nav-link" href="contact">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <body>
+    <!-- Body Content -->
+    <div class="container" id="main-container">
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+          <div class="row">
+            <div class="col-md-12">
+              <h1>About Me</h1>
+            </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-md" id="body-text">
-            <img class="auth-image" src="assets/images/profilepicture.jpg" alt="Profile Picture" />
-            <p>Ian Gacek is an avid bicyclist that enjoys occasional video games with friends, excellent
-              local restaurants, and are about as basic as they come with an avid love of IPAs. Ian has
-              worked in the world of technology since the age of 16, from troubleshooting computers to
-              business operations in E-Commerce. Currently attending school to learn full-stack web development, Ian is
-              knowlegable in multiple languages including HTML, CSS, JavaScript and jQuery.</p>
-              <a href="https://www.slideshare.net/slideshow/embed_code/key/uT0dpY04sxhhjC"><p>Ian Gacek's current résumé</p></a>
+          <div class="row">
+            <div class="col-md" id="body-text">
+              <img
+                class="auth-image"
+                src="assets/images/profilepicture.jpg"
+                alt="Profile Picture"
+              />
+              <p>
+                Ian Gacek is an avid bicyclist that enjoys occasional video
+                games with friends, excellent local restaurants, and are about
+                as basic as they come with an avid love of IPAs. Ian has worked
+                in the world of technology since the age of 16, from
+                troubleshooting computers to business operations in E-Commerce.
+                Currently attending school to learn full-stack web development,
+                Ian is knowlegable in multiple languages including HTML, CSS,
+                JavaScript and jQuery.
+              </p>
+              <a
+                href="https://www.slideshare.net/slideshow/embed_code/key/uT0dpY04sxhhjC"
+                ><p>Ian Gacek's current résumé</p></a
+              >
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-
-  <!-- Footer -->
-  <div class="footer navbar-fixed-bottom">
-    <div class="col-md-12" id="fixfooter">
-      <footer>
-        <div class="container">
-          Copyright &copy; 2019 Ian Gacek
-        </div>
-      </footer>
-    </div>
-  </div>
-</body>
-
+  </body>
 </html>
